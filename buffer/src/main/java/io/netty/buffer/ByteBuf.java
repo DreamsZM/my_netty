@@ -34,6 +34,8 @@ import java.nio.charset.UnsupportedCharsetException;
  * This interface provides an abstract view for one or more primitive byte
  * arrays ({@code byte[]}) and {@linkplain ByteBuffer NIO buffers}.
  *
+ * 一个随机和顺序访问的字节序列
+ *
  * <h3>Creation of a buffer</h3>
  *
  * It is recommended to create a new buffer using the helper methods in
